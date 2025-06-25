@@ -3,7 +3,7 @@ import experi from "../lottie/experince.json";
 import { Experience } from "../Data/Experience";
 import Lottie from "lottie-react";
 import GlowCard from "../Data/GlowCard";
-import vector from "../ProjectImage/company1.jpeg";
+import vector from "../ProjectImage/explogo.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

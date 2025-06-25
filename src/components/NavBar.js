@@ -48,7 +48,7 @@ const NavBar = () => {
             href="#"
             className="text-2xl bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent dark:text-cyan-500 max-sm:text-2xl"
           >
-            {"Aashish{</>}"}
+            {"Manmith{</>}"}
           </a>
           {screen && (
             <button onClick={toggleTheme}  className={` mt-1 px-6 ${theme === "dark" ? "text-white" : "text-black"}`}>

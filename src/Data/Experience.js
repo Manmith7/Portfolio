@@ -1,14 +1,14 @@
 export const Experience = [
     {
         id: 1,
-        title: "Software Engineer Intern",
-        company: "InterviewVector Technologies",
-        duration: "(Jan 2024 - Jun 2024)",
+        title: "Frontend Developer",
+        company: "Macbease Connections Pvt. Ltd",
+        duration: "(Jun 2025 - Present)",
         description: [
-            "Established advanced front-end technologies such as Tailwind CSS, JavaScript, and ReactJS, resulting in improved website loading speed and enhanced user engagement.",
-            "Integrated Node.js routing models for MongoDB and integrated Axios and Nodemailer for custom mailing.",
-            "Optimized queries and APIs, resulting in a 40% faster rendering of components.",
-            "Elevated unit testing coverage from 30% to 58% using Mocha for backend services, ensuring robust code quality and reducing bugs."
+            "Developed and refined dynamic user interfaces using ReactJS and Tailwind CSS, enhancing usability across devices.",
+            "Collaborated closely with UI/UX designers to implement pixel-perfect components and responsive layouts.",
+            "Improved performance and load times through code splitting, lazy loading, and optimization of image assets.",
+            "Maintained clean and scalable codebase using modern ES6+ JavaScript practices and reusable component architecture."
         ]
     }
 ];

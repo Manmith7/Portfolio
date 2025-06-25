@@ -88,22 +88,6 @@ const Home = () => {
               >
                 <SiLeetcode size={30} />
               </a>
-
-              <a
-                href={Data.gfg}
-                target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
-              >
-                <SiGeeksforgeeks size={30} />
-              </a>
-
-              <a
-                href={Data.twitter}
-                target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
-              >
-                <FaTwitterSquare size={30} />
-              </a>
             </div>
 
             <div className="flex items-center gap-4">

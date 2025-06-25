@@ -15,7 +15,13 @@ import postman  from '../skills/postman.png';
 import github  from '../skills/github.png';
 import express from '../skills/express.png';
 import vercel from '../skills/vercel.png'
-
+import angular from '../skills/angular.png'
+import node from '../skills/node-js.png'
+import php from '../skills/php.jpg'
+import laravel from '../skills/laravel.jpg'
+import python from '../skills/python.jpg'
+import kotlin from '../skills/kotlin.jpg'
+import postgresql from '../skills/postgreSql.png'
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
@@ -50,9 +56,25 @@ export const skillsImage = (skill) => {
     case 'github':
       return github;
     case 'express':
+    case 'express.js':
       return express;
     case 'vercel':
       return vercel;
+    case 'angular':
+      return angular;
+    case 'node':
+    case 'node.js':
+      return node;
+    case 'php':
+      return php;
+    case 'laravel':
+      return laravel;
+    case 'python':
+      return python;
+    case 'kotlin':
+      return kotlin;
+    case 'postgresql':
+      return postgresql;
     default:
       return null;
   }

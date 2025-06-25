@@ -25,145 +25,35 @@ import netflix3 from "../ProjectImage/netflix3.png";
 export const projects = [
   {
     id: "1",
-    title: "Full Stack Chat Application",
-    date: "Junw 2023 - Aug 2024",
+    title: "Recipe Management Platform",
+    date: "Feb 2025 – Apr 2025",
     description:
-      "Full-stack chat app features a React and Vite frontend with a Node.js and Express.js backend, using MongoDB for data storage. It supports real-time messaging with socket.io-client, responsive design, and Material-UI components. Key features include JWT authentication and Cloudinary media uploads.",
-    images: [chatapp1,chatapp2,chatapp3,chatapp4],
-    tags: [
-      "React Js",
-      "Redux",
-      "Material-UI",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "PostMan",
-      "Cloudinary",
-      "Socket.Io",
-      "JWT",
-    ],
-    github: "https://github.com/aashish649/chatApp-frontend",
-    webapp: "https://chat-app-frontend-red.vercel.app/",
+      "Developed a feature-rich web application allowing users to submit, update, and manage their personal recipes with support for images and video tutorials. Integrated token-based authentication using Laravel Sanctum to ensure secure user access and content control. Enabled multi-criteria search functionality with filters based on ingredients, difficulty level, and preparation time. Focused on modular backend development and structured frontend components to ensure long-term maintainability and extensibility.",
+    images: [], // Add images if available
+    tags: ["Laravel", "Blade", "MySQL", "HTML", "CSS"],
+    github: "", // Add link if available
+    webapp: "", // Add link if available
   },
   {
     id: "2",
-    title: "Netflix-Gpt",
-    date: "Feb 2024 - Mar 2024",
+    title: "E-Commerce Website",
+    date: "Oct 2024 – Dec 2024",
     description:
-      "I developed a Netflix-inspired frontend with React, replicating key UI/UX features and integrating ChatGPT for intelligent movie search. Firebase was used for secure authentication and real-time data sync. The design is responsive, leveraging modern CSS techniques, and the project follows best practices in React component architecture, state management, and API integration.",
-    images: [netflix1,netflix2,netflix3],
-    tags: [
-      "React Js",
-      "Redux",
-      "Tailwind Css",
-      "FireBase",
-      "TMDB Api",
-      "OpenAi's ChatGpt",
-    ],
-    github: "https://github.com/aashish649/alumni-track",
-    webapp: "https://alumni-track.vercel.app/",
+      "Built a scalable platform with secure user authentication and role-based access control for seamless user management. Enhanced product categorization and an intuitive shopping cart system with real-time updates for a better shopping experience. Optimized performance and responsiveness, improving loading speeds, navigation, and user engagement. Improved system efficiency and responsiveness, ensuring faster load times and smoother user flow across the application.",
+    images: [], // Add images if available
+    tags: ["React", "Node.js", "Express", "MongoDB"],
+    github: "", // Add link if available
+    webapp: "", // Add link if available
   },
   {
     id: "3",
-    title: "Alumni Tracker",
-    date: "Nov 2023 - Feb 2024",
+    title: "Table Reservation System",
+    date: "Mar 2024 – May 2024",
     description:
-      "Alumni Tracker is a web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It serves a platform for alumni to connect, share updates, and engage with the admin seamlessly. The application is divided into user and admin interfaces, each equipped with distinct features and functionalities.",
-    images: [alumni1,alumni2,alumni3,alumni4],
-    tags: [
-      "React Js",
-      "Redux",
-      "Tailwind Css",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "PostMan",
-      "Cloudinary",
-      "Twilio",
-      "NodeMailer",
-      "JWT",
-    ],
-    github: "https://github.com/aashish649/alumni-track",
-    webapp: "https://alumni-track.vercel.app/",
-  },
-  {
-    id: "4",
-    title: "Portfolio",
-    date: "Feb 2024 - Mar2024",
-    description:
-      "I built a personal portfolio website using React and styled it with Tailwind CSS. I made it interactive by adding cool animations using React tools like Lottie. The website is designed to look good and work well on all devices, from big screens to smartphones. It's a showcase of my work and skills in a user-friendly way.",
-    images: [portfolio1,portfolio2,portfolio3],
-    tags: [
-      "React Js",
-      "Redux",
-      "Tailwind Css",
-      "Css",
-    ],
-    github: "https://github.com/aashish649/portfolio",
-    webapp: "https://aashishanand.vercel.app/",
-  },
-  {
-    id: "5",
-    title: "Math Helper",
-    date: "Jun 2022 - August 2023",
-    description:
-      "Mathelper is a web app offering solutions for quadratic equations, percentage calculations, area, perimeter, and unit conversion. Simplify math tasks conveniently.",
-    images: [math1,math2],
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Netlify",
-    ],
-    category: "web app",
-    github: "https://github.com/aashish649/Mathhelper",
-    webapp: "https://mathtool.netlify.app/",
-  },
-  {
-    id: "6",
-    title: "personal",
-    date: "Jun 2022 - Aug 2023",
-    description:
-      "A complete responsive portfolio website created using HTML, CSS, and JavaScript to learn JavaScript and responsiveness",
-    images: [ personal1,personal2,     
-    ],
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Netlify",
-    ],
-    github: "https://github.com/aashish649/personal",
-    webapp: "https://ashish-anand.netlify.app/",
-  },
-  {
-    id: "7",
-    title: "Weather-Forecast-Web-app",
-    date: "dec 2023 - dec 2023",
-    description:"This project is a hands-on exploration of JavaScript and API integration, designed to provide real-time weather information based on user input. With a user-friendly interface, the application fetches data from a weather API, allowing users to stay informed about current and forecasted weather conditions.",
-    images: [weather1,weather2],
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript", 
-    ],
-    category: "web app",
-    github: "https://github.com/aashish649/Weather-Forecast-Web-app",
-    webapp: "https://aashish649.github.io/Weather-Forecast-Web-app/",
-  },
-  {
-    id: "8",
-    title: "Currency Converter",
-    date: "Dec 2023 - Dec 2023",
-    description:"This project is a simple and user-friendly currency converter web application. It allows users to convert amounts from one currency to another, providing real-time exchange rates sourced from an external API. The application supports a variety of currencies, enabling users to perform accurate and instant currency conversions.",
-    images: [currency1,currency1],
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    category: "web app",
-    github: "https://github.com/aashish649/Currency-Converter",
-    webapp: "https://aashish649.github.io/Currency-Converter/",
+      "Created a web-based system for discovering and booking tables at nearby restaurants. Integrated a dynamic reservation system with real-time availability updates, allowing users to submit bookings and receive confirmations while restaurant owners manage reservations efficiently. Developed a responsive and intuitive UI, ensuring smooth navigation across devices with an optimized frontend and backend for better user experience and operational efficiency. Added analytics for restaurant owners to track reservations, peak hours, and customer preferences.",
+    images: [], // Add images if available
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js", "MongoDB"],
+    github: "", // Add link if available
+    webapp: "", // Add link if available
   },
 ];
